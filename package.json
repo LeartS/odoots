@@ -1,0 +1,38 @@
+{
+  "name": "odoots",
+  "version": "0.1.0",
+  "private": false,
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "description": "TypeScript odoo API client",
+  "main": "lib/odoots.js",
+  "types": "lib/odoots.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "odoo",
+    "api",
+    "client",
+    "json-rpc",
+    "typescript"
+  ],
+  "author": "Leonardo \"LeartS\" Donelli",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.4",
+    "@types/node-fetch": "^2.3.3",
+    "typescript": "^3.4.5"
+  },
+  "optionalDependencies": {
+    "node-fetch": "^2.5.0"
+  }
+}
