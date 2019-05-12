@@ -26,6 +26,11 @@ debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
+jsonrpc-lite@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/jsonrpc-lite/-/jsonrpc-lite-2.0.7.tgz#471c9c364cd3aae6e665f93f7f1da0536edb1048"
+  integrity sha512-BzDgvW9iZzVS0hgWaoM1RhBg4eRDqy+JjJtD2+23MbWd+H30ld8qWkUW1LtnHliL4QlYwrYur8ZZkVpiyPkrYQ==
+
 ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"

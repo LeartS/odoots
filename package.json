@@ -25,7 +25,8 @@
   "author": "Leonardo \"LeartS\" Donelli",
   "license": "MIT",
   "dependencies": {
-    "debug": "^4.1.1"
+    "debug": "^4.1.1",
+    "jsonrpc-lite": "^2.0.7"
   },
   "devDependencies": {
     "@types/debug": "^4.1.4",
