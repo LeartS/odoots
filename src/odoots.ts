@@ -149,7 +149,7 @@ export default class Odoots {
         const response = await this.fetch(this.host + path, {
             method: 'post',
             headers: headers,
-            body: jrpcBody
+            body: JSON.stringify(jrpcBody)
         })
         const sessionCookie = findSessionCookie(response.headers.get('set-cookie'))
         if (sessionCookie) {
