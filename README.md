@@ -9,6 +9,7 @@ odoots is a typescript client for odoo's JSON-RCP API.
 * Works in nodejs and browsers (as long as they have builtin "fetch" support)
 * Minimal set of dependencies
 * Clean and documented code
+* Promise-based API, no callbacks
 
 ## Current status
 

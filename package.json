@@ -1,6 +1,6 @@
 {
   "name": "odoots",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "engines": {
     "node": ">=8.3.0"
@@ -24,6 +24,14 @@
   ],
   "author": "Leonardo \"LeartS\" Donelli",
   "license": "MIT",
+  "homepage": "https://github.com/LeartS/odoots",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeartS/odoots.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeartS/odoots/issues"
+  },
   "dependencies": {
     "debug": "^4.1.1",
     "jsonrpc-lite": "^2.0.7"
