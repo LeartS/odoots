@@ -1,10 +1,5 @@
 import * as nodefetch from 'node-fetch'
-import debug = require('debug')
-
 import * as jsonrpc from 'jsonrpc-lite'
-
-
-const debugHTTP = debug('odoots:http')
 
 /**
  * Returns the "fetch" implementation for the current environment:
@@ -226,5 +221,3 @@ export default class Odoots {
         })
     }
 }
-
-module.exports = Odoots

@@ -1,6 +1,6 @@
 {
   "name": "odoots",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "engines": {
     "node": ">=8.3.0"
@@ -10,7 +10,7 @@
   "types": "lib/odoots.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "tsc"
+    "prepare": "rm lib/* && tsc"
   },
   "files": [
     "lib/"
